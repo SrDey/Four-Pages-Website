@@ -1,0 +1,69 @@
+        body{
+            background: gray;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            color: aliceblue;
+        }
+        header{
+            background: rgb(0, 0, 0);
+            padding: 100px;
+    
+        }
+       
+        section {
+            background: white;
+            color: rgb(255, 255, 255);
+            padding: 120px;
+            display: flex;
+            flex-direction: row;
+
+        }
+        h1{
+            color: aliceblue;
+        }
+        
+        ul{
+             margin: 0;
+             padding: 0;
+             list-style-type: none;
+             
+             }
+
+        li{
+                 display: inline-block;
+                 margin: 0 4px 0 0;
+                 color: rgb(0, 0, 0);
+             }
+             a:hover{
+                color: brown;
+                text-decoration: rgb(0, 2, 3);
+                background-color: rgb(83, 79, 79);
+            }
+            header .logo a {
+                background-color: rgb(62, 62, 75);
+        
+                height: 80px;
+                width: 200px;
+            }
+
+        div{
+            background: rgb(160, 160, 182);
+            color: aliceblue;
+            margin: auto;
+            height: 280.333px;
+            width: 333.333px;
+            
+        }
+
+        nav{
+            padding:  20px;
+        }
+
+        footer {
+            background: black;
+            padding: 60px;
+        }
+
+
+section.feature-box div {
+    background: rebeccapurple;
+}
